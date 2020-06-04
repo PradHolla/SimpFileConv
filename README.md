@@ -15,7 +15,7 @@ Run the Python File
 ```bash
 python primary.py
 ```
-If you are a Linux with python3, enter the below command
+If you are a Linux user with python3, enter the below command
 ```bash
 python3 primary.py
 ```
