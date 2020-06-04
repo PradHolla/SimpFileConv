@@ -20,9 +20,9 @@ Now the program asks for the location of the required CSV File
 ```bash
 Sample.csv
 ```
-Note: You can also give a file manual location.
+Note: Manual location of the CSV file present in the system can also be given.
 
-The converted JSON format is displayed with the total time taken.
+The converted JSON format is displayed with the total time taken for conversion.
 # Secondary Implementation
 This is another implementation where user can convert using a GUI.
 
