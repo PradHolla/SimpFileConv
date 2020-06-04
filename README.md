@@ -24,7 +24,7 @@ Note: You can also give a file manual location.
 
 The converted JSON format is displayed with the total time taken.
 # Secondary Implementation
-This is another implementation where user can convert using a GUI
+This is another implementation where user can convert using a GUI.
 
 Installation
 
