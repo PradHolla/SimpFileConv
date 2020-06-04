@@ -15,6 +15,10 @@ Run the Python File
 ```bash
 python primary.py
 ```
+If you are a Linux with python3, enter the below command
+```bash
+python3 primary.py
+```
 Now the program asks for the location of the required CSV File
 
 ```bash
@@ -37,6 +41,10 @@ Run
 Executing the below command launches a GUI
 ```bash
 python secondary.py
+```
+Linux users,
+```bash
+python3 secondary.py
 ```
 Import a CSV file from your system by using 'Import CSV'.
 
