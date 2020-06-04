@@ -10,7 +10,7 @@ with open(read_file) as csvfile:
     field = reader.fieldnames
     csv_rows = [] 
     for row in reader: 
-        csv_rows.append(({field[i]:row[field[i]] for i in range(len(field))},))
+        csv_rows.append({field[i]:row[field[i]] for i in range(len(field))})
                           
 for i in csv_rows:
     pprint. pprint(i)
