@@ -28,13 +28,13 @@ This is another implementation where user can convert using a GUI.
 
 Installation
 
-The necessary libraries\modules to be installed are specified in requirements.txt. Run the below command to install them.
+The necessary libraries\modules to be installed are specified in requirements.txt. Run the below command to install them
 ```bash
 pip install -r requirements.txt
 ```
 Run
 
-Executing the below command launches a GUI.
+Executing the below command launches a GUI
 ```bash
 python secondary.py
 ```
