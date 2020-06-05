@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 import pandas as pd
-
+from timeit import default_timer as timer
 root= tk.Tk()
 
 canvas1 = tk.Canvas(root, width = 310, height = 380, bg = 'white', relief = 'raised')
@@ -17,7 +17,7 @@ def getCSV ():
     
     import_file_path = filedialog.askopenfilename()
     read_file = pd.read_csv (import_file_path)
-    
+   
 browseButton_CSV = tk.Button(text="      Import CSV File     ", command=getCSV, bg='brown', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 130, window=browseButton_CSV)
 
@@ -25,8 +25,11 @@ def convertToJSON ():
     global read_file
     
     export_file_path = filedialog.asksaveasfilename(defaultextension='.json')
+    start = timer()
     read_file.to_json(export_file_path, indent = 4)
-
+    end = timer()
+    final=end-start
+    print("The time taken to convert from CSV to JSON format is around ", str(final)+"s")
 saveAsButton_JSON = tk.Button(text='Convert CSV to JSON', command=convertToJSON, bg='brown', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 180, window=saveAsButton_JSON)
 
