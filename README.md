@@ -28,7 +28,7 @@ Note: Manual location of the CSV file present in the system can also be given.
 
 The converted JSON format is displayed with the total time taken for conversion.
 # Secondary Implementation
-This is another implementation where user can convert using a GUI.
+This is another implementation where user can convert using a GUI. This is a demonstration of large scale implementation of file conversions.
 
 Installation
 
@@ -42,7 +42,11 @@ Executing the below command launches a GUI
 ```bash
 python secondary.py
 ```
-Linux users,
+For Linux users:
+```bash
+sudo apt-get install python3-tk
+```
+Then
 ```bash
 python3 secondary.py
 ```
