@@ -1,4 +1,3 @@
-
 import csv 
 import pprint 
 from timeit import default_timer as timer 
@@ -15,5 +14,4 @@ with open(read_file) as csvfile:
 for i in csv_rows:
     pprint. pprint(i)
 end = timer()    
-    
-print("The time taken to convert from CSV to JSON format is :", end-start)
+print("The time taken to convert from CSV to JSON format is :", str(end-start)+"s")
