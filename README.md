@@ -26,7 +26,7 @@ Sample.csv
 ```
 Note: Manual location of the CSV file present in the system can also be given.
 
-The converted JSON format is displayed with the total time taken for conversion.
+The converted JSON format is displayed in the console with the total time taken for conversion.
 # Secondary Implementation
 This is another implementation where user can convert using a GUI. This is a demonstration of large scale implementation of file conversions.
 
