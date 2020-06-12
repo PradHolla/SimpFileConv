@@ -26,7 +26,6 @@ browseButton_CSV = tk.Button(text="      Import CSV File     ", command=getCSV, 
 canvas1.create_window(150, 130, window=browseButton_CSV)
 
 def convertToJSON ():
-    global read_file
     
     export_file_path = filedialog.asksaveasfilename(defaultextension='.json')
     start = timer()
