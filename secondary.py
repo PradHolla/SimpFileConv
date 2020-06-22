@@ -46,3 +46,4 @@ exitButton = tk.Button (root, text='       Exit Application     ',command=exitAp
 canvas1.create_window(150, 230, window=exitButton)
 
 root.mainloop()
+
