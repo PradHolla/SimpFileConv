@@ -15,7 +15,8 @@ tkinter
 
 time modules
 
-Follow these steps
+
+Follow these steps:
 ```bash
 git clone https://github.com/PradHolla/SimpFileConv.git
 ```
