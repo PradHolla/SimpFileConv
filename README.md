@@ -3,6 +3,9 @@ We come across many types of readable file formats. Sometimes there is a need of
 
 In this minor project, CSV to JSON conversion is offered alongside an easily understandable Graphical User Interface.
 
+There are two models built to constitute the entire project. The Primary Implementation shows how a conversion is done by displaying the final form of the converted file in the console. This is carried out to show the process of conversion inside the ETL Tools.
+The Secondary Implementation is an extension of the primary implementation with a Graphical User Interface provided to the user to show how the large scale implementations of these ETL functions are performed. A suitable input file can be chosen via GUI and once the name of output file alongside its directory is given, the CSV file will be converted to JSON and stored in the given directory.
+
 Basic Requirements:-
 
 python >= 3.5
