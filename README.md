@@ -70,3 +70,14 @@ Import a CSV file from your system by using 'Import CSV'.
 Then select Convert 'CSV to JSON' and give a name to the output file in the desired location.
 
 The converted file will be present in the pre-specified directory.
+
+To view the report of this project,
+```bash
+start 'Final Report.pdf'
+```
+Linux users,
+```bash
+xdg-open 'Final Report.pdf'
+```
+
+This sums up the purpose of this minor project. There is no limit for the size of a file. Files of any size can be given for conversion. The complete report of this project can be viewed to know more about this minor project. It can be accessed via File Explorer or even by the entering the above command.
