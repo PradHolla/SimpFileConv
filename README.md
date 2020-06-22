@@ -81,3 +81,4 @@ xdg-open 'Final Report.pdf'
 ```
 
 This sums up the purpose of this minor project. There is no limit for the size of a file. Files of any size can be given for conversion. The complete report of this project can be viewed to know more about this minor project. It can be accessed via File Explorer or by the entering the above command.
+
