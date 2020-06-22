@@ -1,5 +1,19 @@
 # SimpFileConv
+We come across many types of readable file formats. Sometimes there is a need of viewing the same data in a different file format. For example, we have some data stored in a CSV format but it might be inconvenient for a machine to comprehend it easily. So we need to convert the same CSV to a machine readable language like JSON etc. in such a way that no data is modified during the process.
+
 In this minor project, CSV to JSON conversion is offered alongside an easily understandable Graphical User Interface.
+
+Basic Requirements:-
+
+python >= 3.5
+
+CSV and JSON libraries
+
+pandas
+
+tkinter
+
+time modules
 
 Follow these steps
 ```bash
