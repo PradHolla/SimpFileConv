@@ -74,7 +74,7 @@ Then select Convert 'CSV to JSON' and give a name to the output file in the desi
 
 The converted file will be present in the pre-specified directory.
 
-To view the project report,
+To view the Project Report,
 ```bash
 start 'Final Report.pdf'
 ```
